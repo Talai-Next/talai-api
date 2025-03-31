@@ -1,0 +1,391 @@
+Step,Node_Name,Instruction,Latitude,Longitude
+1.0,Navigation,Head east,13.85163,100.56533
+1.5,Speed Bump between step 1 and 2,Caution: Speed Bump Ahead,13.85162,100.56547
+2.0,Navigation,Passing Point,13.85161,100.56561
+2.5,Speed Bump between step 2 and 3,Caution: Speed Bump Ahead,13.85161,100.56561
+3.0,Navigation,Turn left,13.85161,100.56561
+4.0,Navigation,Passing Point,13.85177,100.56561
+5.0,Navigation,Passing Point,13.85187,100.56561
+6.0,Navigation,Passing Point,13.85207,100.56573
+6.5,Speed Bump between step 6 and 7,Caution: Speed Bump Ahead,13.852075,100.565735
+7.0,Navigation,Passing Point,13.85208,100.56574
+7.5,Zebra Crossing between step 7 and 8,Caution: Zebra Crossing Ahead,13.852250000000002,100.565845
+8.0,Navigation,Passing Point,13.85242,100.56595
+9.0,Navigation,Passing Point,13.85259,100.56605
+10.0,Stop 1,"You have arrived at your 1st destination, on the left",13.85259,100.56605
+11.0,Navigation,Head northeast,13.85259,100.56605
+11.5,Zebra Crossing between step 11 and 12,Caution: Zebra Crossing Ahead,13.85262,100.56607500000001
+12.0,Navigation,Passing Point,13.85265,100.5661
+13.0,Navigation,Passing Point,13.85274,100.56616
+14.0,Navigation,Passing Point,13.8528,100.56627
+15.0,Navigation,Passing Point,13.85284,100.56641
+16.0,Navigation,Passing Point,13.85289,100.56667
+17.0,Navigation,Enter the traffic circle and take the 1st exit,13.85289,100.56667
+18.0,Navigation,Passing Point,13.85292,100.5667
+19.0,Navigation,Passing Point,13.85293,100.56671
+20.0,Navigation,Passing Point,13.85294,100.56675
+21.0,Navigation,Passing Point,13.85294,100.5668
+21.5,Speed Bump between step 21 and 22,Caution: Speed Bump Ahead,13.852935,100.56682
+22.0,Navigation,Passing Point,13.85293,100.56684
+22.5,Speed Bump between step 22 and 23,Caution: Speed Bump Ahead,13.852915,100.56685
+23.0,Navigation,Passing Point,13.8529,100.56686
+24.0,Navigation,Exit the traffic circle,13.8529,100.56686
+25.0,Navigation,Passing Point,13.8529,100.56713
+25.5,Speed Bump between step 25 and 26,Caution: Speed Bump Ahead,13.8529,100.56713
+26.0,Navigation,Make a sharp left,13.8529,100.56713
+26.5,Zebra Crossing between step 26 and 27,Caution: Zebra Crossing Ahead,13.85293,100.56712
+27.0,Navigation,Passing Point,13.85296,100.56711
+28.0,Navigation,Passing Point,13.85303,100.56708
+29.0,Navigation,Passing Point,13.85446,100.56667
+30.0,Navigation,Make a U-turn,13.85446,100.56667
+30.5,Zebra Crossing between step 30 and 31,Caution: Zebra Crossing Ahead,13.853745,100.56687500000001
+31.0,Navigation,Passing Point,13.85303,100.56708
+32.0,Navigation,Passing Point,13.85297,100.5671
+33.0,Stop 2,"You have arrived at your 2nd destination, on the right",13.85297,100.5671
+34.0,Navigation,Head southeast,13.85297,100.5671
+35.0,Navigation,Passing Point,13.85296,100.56711
+35.5,Speed Bump between step 35 and 36,Caution: Speed Bump Ahead,13.85293,100.56712
+36.0,Navigation,Passing Point,13.8529,100.56713
+37.0,Navigation,Make a sharp left,13.8529,100.56713
+38.0,Navigation,Passing Point,13.8534,100.56723
+38.5,Zebra Crossing between step 38 and 39,Caution: Zebra Crossing Ahead,13.85364,100.56728
+39.0,Navigation,Passing Point,13.85388,100.56733
+39.5,Speed Bump between step 39 and 40,Caution: Speed Bump Ahead,13.85397,100.56735
+40.0,Navigation,Passing Point,13.85406,100.56737
+40.5,Speed Bump between step 40 and 41,Caution: Speed Bump Ahead,13.854165,100.567395
+41.0,Navigation,Passing Point,13.85427,100.56742
+42.0,Navigation,Passing Point,13.85436,100.56743
+43.0,Navigation,Passing Point,13.85457,100.56748
+43.5,Zebra Crossing between step 43 and 44,Caution: Zebra Crossing Ahead,13.854690000000002,100.56751
+44.0,Navigation,Passing Point,13.85481,100.56754
+44.5,Speed Bump between step 44 and 45,Caution: Speed Bump Ahead,13.85482,100.567495
+45.0,Navigation,Passing Point,13.85483,100.56745
+46.0,Stop 3,You have arrived at your 3rd destination,13.85483,100.56745
+47.0,Navigation,Head west,13.85483,100.56745
+48.0,Navigation,Passing Point,13.85488,100.56725
+49.0,Navigation,Passing Point,13.85511,100.5673
+49.5,Zebra Crossing between step 49 and 50,Caution: Zebra Crossing Ahead,13.855145,100.56730999999999
+50.0,Navigation,Passing Point,13.85518,100.56732
+51.0,Navigation,Passing Point,13.85524,100.56737
+51.5,Speed Bump between step 51 and 52,Caution: Speed Bump Ahead,13.855245,100.56738
+52.0,Navigation,Passing Point,13.85525,100.56739
+52.5,Zebra Crossing between step 52 and 53,Caution: Zebra Crossing Ahead,13.855255,100.56739999999999
+53.0,Navigation,Passing Point,13.85526,100.56741
+53.5,Speed Bump between step 53 and 54,Caution: Speed Bump Ahead,13.855229999999999,100.56758500000001
+54.0,Navigation,Passing Point,13.8552,100.56776
+54.5,Speed Bump between step 54 and 55,Caution: Speed Bump Ahead,13.85512,100.56815
+55.0,Navigation,Passing Point,13.85504,100.56854
+56.0,Navigation,Passing Point,13.85495,100.56891
+56.5,Speed Bump between step 56 and 57,Caution: Speed Bump Ahead,13.854915,100.569065
+57.0,Navigation,Passing Point,13.85488,100.56922
+58.0,Stop 4,You have arrived at your 4th destination,13.85488,100.56922
+59.0,Navigation,Head east,13.85488,100.56922
+59.5,Zebra Crossing between step 59 and 60,Caution: Zebra Crossing Ahead,13.854865,100.56929
+60.0,Navigation,Passing Point,13.85485,100.56936
+61.0,Navigation,Passing Point,13.85473,100.56989
+62.0,Navigation,Passing Point,13.85472,100.56992
+62.5,Speed Bump between step 62 and 63,Caution: Speed Bump Ahead,13.854705,100.569985
+63.0,Navigation,Passing Point,13.85469,100.57005
+64.0,Navigation,Passing Point,13.85467,100.57014
+65.0,Navigation,Turn right,13.85467,100.57014
+65.5,Zebra Crossing between step 65 and 66,Caution: Zebra Crossing Ahead,13.854635,100.57013
+66.0,Navigation,Passing Point,13.8546,100.57012
+66.5,Zebra Crossing between step 66 and 67,Caution: Zebra Crossing Ahead,13.85444,100.57008
+67.0,Navigation,Passing Point,13.85428,100.57004
+68.0,Navigation,Passing Point,13.85391,100.56994
+69.0,Navigation,Turn left,13.85391,100.56994
+70.0,Navigation,Passing Point,13.8539,100.57047
+71.0,Navigation,Passing Point,13.85384,100.57047
+72.0,Navigation,Passing Point,13.85333,100.57047
+72.5,Zebra Crossing between step 72 and 73,Caution: Zebra Crossing Ahead,13.85293,100.570465
+73.0,Navigation,Passing Point,13.85253,100.57046
+73.5,Zebra Crossing between step 73 and 74,Caution: Zebra Crossing Ahead,13.85253,100.57046
+74.0,Navigation,Turn left,13.85253,100.57046
+74.5,Speed Bump between step 74 and 75,Caution: Speed Bump Ahead,13.85253,100.570645
+75.0,Navigation,Passing Point,13.85253,100.57083
+76.0,Stop 5,"You have arrived at your 5th destination, on the left",13.85253,100.57083
+77.0,Navigation,Head east,13.85253,100.57083
+78.0,Navigation,Passing Point,13.85252,100.57139
+78.5,Zebra Crossing between step 78 and 79,Caution: Zebra Crossing Ahead,13.85252,100.57153
+79.0,Navigation,Passing Point,13.85252,100.57167
+80.0,Stop 6,"You have arrived at your 6th destination, on the left",13.85252,100.57167
+81.0,Navigation,Head east,13.85252,100.57167
+82.0,Navigation,Passing Point,13.8525,100.57254
+82.5,Speed Bump between step 82 and 83,Caution: Speed Bump Ahead,13.8525,100.57254
+83.0,Navigation,Turn right,13.8525,100.57254
+84.0,Navigation,Passing Point,13.85244,100.57259
+85.0,Navigation,Passing Point,13.85172,100.5726
+85.5,Zebra Crossing between step 85 and 86,Caution: Zebra Crossing Ahead,13.85168,100.5726
+86.0,Navigation,Passing Point,13.85164,100.5726
+86.5,Speed Bump between step 86 and 87,Caution: Speed Bump Ahead,13.851585,100.5726
+87.0,Navigation,Passing Point,13.85153,100.5726
+88.0,Stop 7,You have arrived at your 7th destination,13.85153,100.5726
+89.0,Navigation,Head south,13.85153,100.5726
+90.0,Navigation,Passing Point,13.85068,100.57259
+90.5,Zebra Crossing between step 90 and 91,Caution: Zebra Crossing Ahead,13.850555,100.57259
+91.0,Navigation,Passing Point,13.85043,100.57259
+92.0,Stop 8,You have arrived at your 8th destination,13.85043,100.57259
+93.0,Navigation,Head south,13.85043,100.57259
+94.0,Navigation,Passing Point,13.85022,100.57259
+95.0,Navigation,Passing Point,13.85008,100.57259
+96.0,Navigation,Passing Point,13.84985,100.57259
+97.0,Navigation,Passing Point,13.84963,100.57259
+97.5,Zebra Crossing between step 97 and 98,Caution: Zebra Crossing Ahead,13.849184999999999,100.57259
+98.0,Navigation,Passing Point,13.84874,100.57259
+99.0,Stop 9,You have arrived at your 9th destination,13.84874,100.57259
+100.0,Navigation,Head south,13.84874,100.57259
+100.5,Speed Bump between step 100 and 101,Caution: Speed Bump Ahead,13.848614999999999,100.572585
+101.0,Navigation,Passing Point,13.84849,100.57258
+101.5,Speed Bump between step 101 and 102,Caution: Speed Bump Ahead,13.848189999999999,100.57258
+102.0,Navigation,Passing Point,13.84789,100.57258
+102.5,Speed Bump between step 102 and 103,Caution: Speed Bump Ahead,13.847845,100.57258
+103.0,Navigation,Passing Point,13.8478,100.57258
+104.0,Stop 10,You have arrived at your 10th destination,13.8478,100.57258
+105.0,Navigation,Head south,13.8478,100.57258
+106.0,Navigation,Passing Point,13.84754,100.57258
+107.0,Navigation,Passing Point,13.8473,100.57258
+107.5,Speed Bump between step 107 and 108,Caution: Speed Bump Ahead,13.846895,100.572575
+108.0,Navigation,Passing Point,13.84649,100.57257
+109.0,Stop 11,"You have arrived at your destination, on the left",13.84649,100.57257
+110.0,Navigation,Head south,13.84649,100.57257
+111.0,Navigation,Passing Point,13.84616,100.57257
+111.5,Zebra Crossing between step 111 and 112,Caution: Zebra Crossing Ahead,13.84605,100.57257
+112.0,Navigation,Passing Point,13.84594,100.57257
+112.5,Speed Bump between step 112 and 113,Caution: Speed Bump Ahead,13.84586,100.572575
+113.0,Navigation,Passing Point,13.84578,100.57258
+114.0,Navigation,Passing Point,13.84459,100.57257
+115.0,Stop 12,"You have arrived at your destination, on the left",13.84459,100.57257
+116.0,Navigation,Head south,13.84459,100.57257
+116.5,Speed Bump between step 116 and 117,Caution: Speed Bump Ahead,13.844560000000001,100.57257
+117.0,Navigation,Passing Point,13.84453,100.57257
+118.0,Navigation,Passing Point,13.84435,100.57257
+119.0,Navigation,Passing Point,13.84397,100.57252
+120.0,Navigation,Passing Point,13.8437,100.5724
+121.0,Navigation,Passing Point,13.8428,100.57187
+122.0,Stop 13,"You have arrived at your destination, on the left",13.8428,100.57187
+123.0,Navigation,Head southwest,13.8428,100.57187
+124.0,Navigation,Passing Point,13.8426,100.57175
+125.0,Navigation,Turn left,13.8426,100.57175
+126.0,Navigation,Passing Point,13.84256,100.57187
+127.0,Navigation,Passing Point,13.84253,100.57233
+128.0,Navigation,Turn left,13.84253,100.57233
+129.0,Navigation,Passing Point,13.84273,100.57234
+129.5,Zebra Crossing between step 129 and 130,Caution: Zebra Crossing Ahead,13.842735,100.572345
+130.0,Navigation,Passing Point,13.84274,100.57235
+130.5,Speed Bump between step 130 and 131,Caution: Speed Bump Ahead,13.842745,100.57236499999999
+131.0,Navigation,Passing Point,13.84275,100.57238
+131.5,Speed Bump between step 131 and 132,Caution: Speed Bump Ahead,13.84274,100.57249999999999
+132.0,Navigation,Passing Point,13.84273,100.57262
+132.5,Zebra Crossing between step 132 and 133,Caution: Zebra Crossing Ahead,13.84272,100.57273
+133.0,Navigation,Passing Point,13.84271,100.57284
+134.0,Navigation,Passing Point,13.84269,100.57309
+134.5,Speed Bump between step 134 and 135,Caution: Speed Bump Ahead,13.84268,100.5731
+135.0,Navigation,Passing Point,13.84267,100.57311
+136.0,Navigation,Passing Point,13.84266,100.57327
+137.0,Stop 14,"You have arrived at your destination, on the right",13.84266,100.57327
+138.0,Navigation,Head east,13.84266,100.57327
+139.0,Navigation,Passing Point,13.84262,100.57388
+140.0,Navigation,Turn right,13.84262,100.57388
+141.0,Navigation,Passing Point,13.84241,100.57389
+142.0,Navigation,Turn left,13.84241,100.57389
+142.5,Speed Bump between step 142 and 143,Caution: Speed Bump Ahead,13.842365000000001,100.574525
+143.0,Navigation,Passing Point,13.84232,100.57516
+143.5,Zebra Crossing between step 143 and 144,Caution: Zebra Crossing Ahead,13.842315,100.57531
+144.0,Navigation,Passing Point,13.84231,100.57546
+145.0,Navigation,Passing Point,13.84228,100.57569
+145.5,Speed Bump between step 145 and 146,Caution: Speed Bump Ahead,13.84228,100.57569
+146.0,Navigation,Turn right,13.84228,100.57569
+147.0,Navigation,Passing Point,13.84219,100.5757
+148.0,Navigation,Passing Point,13.84211,100.5757
+149.0,Navigation,Passing Point,13.84206,100.57567
+150.0,Navigation,Passing Point,13.84186,100.57555
+150.5,Speed Bump between step 150 and 151,Caution: Speed Bump Ahead,13.84181,100.575525
+151.0,Navigation,Passing Point,13.84176,100.5755
+152.0,Navigation,Turn left,13.84176,100.5755
+153.0,Navigation,Passing Point,13.84175,100.57552
+153.5,Speed Bump between step 153 and 154,Caution: Speed Bump Ahead,13.841619999999999,100.575775
+154.0,Navigation,Passing Point,13.84149,100.57603
+154.5,Speed Bump between step 154 and 155,Caution: Speed Bump Ahead,13.841470000000001,100.576045
+155.0,Navigation,Passing Point,13.84145,100.57606
+155.5,Zebra Crossing between step 155 and 156,Caution: Zebra Crossing Ahead,13.841425000000001,100.57607
+156.0,Navigation,Passing Point,13.8414,100.57608
+156.5,Zebra Crossing between step 156 and 157,Caution: Zebra Crossing Ahead,13.841380000000001,100.576075
+157.0,Navigation,Passing Point,13.84136,100.57607
+158.0,Navigation,Passing Point,13.84083,100.57577
+159.0,Navigation,Passing Point,13.84076,100.57572
+159.5,Zebra Crossing between step 159 and 160,Caution: Zebra Crossing Ahead,13.84053,100.57559
+160.0,Navigation,Passing Point,13.8403,100.57546
+160.5,Zebra Crossing between step 160 and 161,Caution: Zebra Crossing Ahead,13.840274999999998,100.57544
+161.0,Navigation,Passing Point,13.84025,100.57542
+162.0,Navigation,Passing Point,13.84022,100.57538
+163.0,Navigation,Passing Point,13.84021,100.57532
+163.5,Speed Bump between step 163 and 164,Caution: Speed Bump Ahead,13.840285000000002,100.57518999999999
+164.0,Navigation,Passing Point,13.84036,100.57506
+165.0,Navigation,Passing Point,13.8404,100.57498
+165.5,Speed Bump between step 165 and 166,Caution: Speed Bump Ahead,13.840405,100.57497000000001
+166.0,Navigation,Passing Point,13.84041,100.57496
+166.5,Zebra Crossing between step 166 and 167,Caution: Zebra Crossing Ahead,13.840415,100.57495
+167.0,Navigation,Passing Point,13.84042,100.57494
+168.0,Stop 15,You have arrived at your destination,13.84042,100.57494
+169.0,Navigation,Head northwest,13.84042,100.57494
+169.5,Speed Bump between step 169 and 170,Caution: Speed Bump Ahead,13.840440000000001,100.574905
+170.0,Navigation,Passing Point,13.84046,100.57487
+171.0,Navigation,Passing Point,13.8405,100.57484
+172.0,Navigation,Passing Point,13.84055,100.57483
+173.0,Navigation,Turn right,13.84055,100.57483
+174.0,Navigation,Passing Point,13.84063,100.57487
+174.5,Zebra Crossing between step 174 and 175,Caution: Zebra Crossing Ahead,13.840695,100.57491
+175.0,Navigation,Passing Point,13.84076,100.57495
+176.0,Navigation,Passing Point,13.84089,100.57502
+177.0,Navigation,Passing Point,13.8412,100.57518
+178.0,Navigation,Passing Point,13.84143,100.57532
+179.0,Navigation,Passing Point,13.84176,100.5755
+179.5,Speed Bump between step 179 and 180,Caution: Speed Bump Ahead,13.84181,100.575525
+180.0,Navigation,Passing Point,13.84186,100.57555
+181.0,Navigation,Passing Point,13.84206,100.57567
+181.5,Speed Bump between step 181 and 182,Caution: Speed Bump Ahead,13.842085,100.575685
+182.0,Navigation,Passing Point,13.84211,100.5757
+183.0,Navigation,Passing Point,13.84219,100.5757
+184.0,Navigation,Passing Point,13.84228,100.57569
+185.0,Navigation,Turn right,13.84228,100.57569
+186.0,Navigation,Passing Point,13.84225,100.576
+187.0,Navigation,Passing Point,13.84224,100.57612
+188.0,Navigation,Passing Point,13.84222,100.57621
+189.0,Navigation,Passing Point,13.8422,100.57626
+189.5,Zebra Crossing between step 189 and 190,Caution: Zebra Crossing Ahead,13.842179999999999,100.576305
+190.0,Navigation,Passing Point,13.84216,100.57635
+190.5,Speed Bump between step 190 and 191,Caution: Speed Bump Ahead,13.84214,100.57637500000001
+191.0,Navigation,Passing Point,13.84212,100.5764
+191.5,Speed Bump between step 191 and 192,Caution: Speed Bump Ahead,13.84211,100.5764
+192.0,Navigation,Passing Point,13.8421,100.5764
+192.5,Zebra Crossing between step 192 and 193,Caution: Zebra Crossing Ahead,13.842075000000001,100.5764
+193.0,Navigation,Passing Point,13.84205,100.5764
+193.5,Zebra Crossing between step 193 and 194,Caution: Zebra Crossing Ahead,13.842035,100.57638
+194.0,Navigation,Passing Point,13.84202,100.57636
+194.5,Zebra Crossing between step 194 and 195,Caution: Zebra Crossing Ahead,13.84202,100.57633999999999
+195.0,Navigation,Passing Point,13.84202,100.57632
+195.5,Zebra Crossing between step 195 and 196,Caution: Zebra Crossing Ahead,13.842035,100.57628
+196.0,Navigation,Passing Point,13.84205,100.57624
+196.5,Speed Bump between step 196 and 197,Caution: Speed Bump Ahead,13.842085,100.57616999999999
+197.0,Navigation,Passing Point,13.84212,100.5761
+198.0,Navigation,Passing Point,13.84213,100.57609
+199.0,Stop 16,You have arrived at your destination,13.84213,100.57609
+200.0,Navigation,Head northwest,13.84213,100.57609
+201.0,Navigation,Passing Point,13.84218,100.57603
+202.0,Navigation,Passing Point,13.84225,100.576
+203.0,Navigation,Passing Point,13.84228,100.57569
+203.5,Speed Bump between step 203 and 204,Caution: Speed Bump Ahead,13.842295,100.575575
+204.0,Navigation,Passing Point,13.84231,100.57546
+204.5,Speed Bump between step 204 and 205,Caution: Speed Bump Ahead,13.842315,100.57531
+205.0,Navigation,Passing Point,13.84232,100.57516
+206.0,Navigation,Passing Point,13.84241,100.57389
+206.5,Zebra Crossing between step 206 and 207,Caution: Zebra Crossing Ahead,13.842424999999999,100.573695
+207.0,Navigation,Passing Point,13.84244,100.5735
+207.5,Zebra Crossing between step 207 and 208,Caution: Zebra Crossing Ahead,13.842445,100.573385
+208.0,Navigation,Passing Point,13.84245,100.57327
+209.0,Stop 17,"You have arrived at your destination, on the left",13.84245,100.57327
+210.0,Navigation,Head west,13.84245,100.57327
+210.5,Speed Bump between step 210 and 211,Caution: Speed Bump Ahead,13.842459999999999,100.573185
+211.0,Navigation,Passing Point,13.84247,100.5731
+211.5,Speed Bump between step 211 and 212,Caution: Speed Bump Ahead,13.84248,100.57296
+212.0,Navigation,Passing Point,13.84249,100.57282
+213.0,Navigation,Passing Point,13.84249,100.57273
+214.0,Navigation,Passing Point,13.8425,100.57261
+215.0,Navigation,Passing Point,13.84253,100.57233
+215.5,Zebra Crossing between step 215 and 216,Caution: Zebra Crossing Ahead,13.842545000000001,100.5721
+216.0,Navigation,Passing Point,13.84256,100.57187
+217.0,Navigation,Keep left at the fork,13.84256,100.57187
+217.5,Zebra Crossing between step 217 and 218,Caution: Zebra Crossing Ahead,13.84255,100.57179500000001
+218.0,Navigation,Passing Point,13.84254,100.57172
+218.5,Speed Bump between step 218 and 219,Caution: Speed Bump Ahead,13.84254,100.57172
+219.0,Navigation,Make a slight right,13.84254,100.57172
+220.0,Navigation,Passing Point,13.84259,100.57163
+221.0,Navigation,Passing Point,13.84264,100.57155
+221.5,Zebra Crossing between step 221 and 222,Caution: Zebra Crossing Ahead,13.842704999999999,100.57144
+222.0,Navigation,Passing Point,13.84277,100.57133
+222.5,Zebra Crossing between step 222 and 223,Caution: Zebra Crossing Ahead,13.84291,100.57106999999999
+223.0,Navigation,Passing Point,13.84305,100.57081
+224.0,Stop 18,"You have arrived at your destination, on the left",13.84305,100.57081
+225.0,Navigation,Head northwest,13.84305,100.57081
+225.5,Speed Bump between step 225 and 226,Caution: Speed Bump Ahead,13.84327,100.57042
+226.0,Navigation,Passing Point,13.84349,100.57003
+226.5,Speed Bump between step 226 and 227,Caution: Speed Bump Ahead,13.84384,100.569405
+227.0,Navigation,Passing Point,13.84419,100.56878
+227.5,Speed Bump between step 227 and 228,Caution: Speed Bump Ahead,13.844195,100.56877
+228.0,Navigation,Passing Point,13.8442,100.56876
+229.0,Stop 19,"You have arrived at your destination, on the left",13.8442,100.56876
+230.0,Navigation,Head northwest,13.8442,100.56876
+231.0,Navigation,Passing Point,13.84439,100.56842
+232.0,Navigation,Passing Point,13.84444,100.56834
+233.0,Navigation,Passing Point,13.84512,100.56715
+234.0,Navigation,Passing Point,13.84549,100.56646
+235.0,Navigation,Passing Point,13.84551,100.56642
+236.0,Navigation,Passing Point,13.84557,100.56633
+237.0,Navigation,Passing Point,13.84561,100.56624
+238.0,Navigation,Make a U-turn,13.84561,100.56624
+238.5,Speed Bump between step 238 and 239,Caution: Speed Bump Ahead,13.845635000000001,100.56626
+239.0,Navigation,Passing Point,13.84566,100.56628
+240.0,Navigation,Passing Point,13.84562,100.56636
+240.5,Zebra Crossing between step 240 and 241,Caution: Zebra Crossing Ahead,13.845585,100.56642500000001
+241.0,Navigation,Passing Point,13.84555,100.56649
+242.0,Navigation,Passing Point,13.84552,100.56653
+242.5,Speed Bump between step 242 and 243,Caution: Speed Bump Ahead,13.845425,100.566705
+243.0,Navigation,Passing Point,13.84533,100.56688
+244.0,Stop 20,You have arrived at your destination,13.84533,100.56688
+245.0,Navigation,Head southeast,13.84533,100.56688
+246.0,Navigation,Passing Point,13.84517,100.56718
+247.0,Navigation,Turn right onto ถนนกำพลอดุลวิทย์,13.84517,100.56718
+247.5,Speed Bump between step 247 and 248,Caution: Speed Bump Ahead,13.845144999999999,100.56716499999999
+248.0,Navigation,Passing Point,13.84512,100.56715
+248.5,Speed Bump between step 248 and 249,Caution: Speed Bump Ahead,13.84512,100.56715
+249.0,Navigation,Turn right,13.84512,100.56715
+250.0,Navigation,Passing Point,13.84549,100.56646
+250.5,Zebra Crossing between step 250 and 251,Caution: Zebra Crossing Ahead,13.845500000000001,100.56644
+251.0,Navigation,Passing Point,13.84551,100.56642
+251.5,Zebra Crossing between step 251 and 252,Caution: Zebra Crossing Ahead,13.84554,100.566375
+252.0,Navigation,Passing Point,13.84557,100.56633
+252.5,Zebra Crossing between step 252 and 253,Caution: Zebra Crossing Ahead,13.845590000000001,100.566285
+253.0,Navigation,Passing Point,13.84561,100.56624
+253.5,Speed Bump between step 253 and 254,Caution: Speed Bump Ahead,13.845645000000001,100.56618
+254.0,Navigation,Passing Point,13.84568,100.56612
+255.0,Navigation,Passing Point,13.84585,100.56581
+256.0,Navigation,Passing Point,13.8461,100.56534
+257.0,Navigation,Passing Point,13.84638,100.56483
+258.0,Navigation,Passing Point,13.84641,100.56477
+258.5,Zebra Crossing between step 258 and 259,Caution: Zebra Crossing Ahead,13.846455,100.56470999999999
+259.0,Navigation,Passing Point,13.8465,100.56465
+260.0,Navigation,Passing Point,13.84652,100.56463
+260.5,Zebra Crossing between step 260 and 261,Caution: Zebra Crossing Ahead,13.84655,100.56460999999999
+261.0,Navigation,Passing Point,13.84658,100.56459
+262.0,Navigation,Passing Point,13.84665,100.56457
+263.0,Navigation,Passing Point,13.84672,100.56455
+263.5,Speed Bump between step 263 and 264,Caution: Speed Bump Ahead,13.846734999999999,100.56455
+264.0,Navigation,Passing Point,13.84675,100.56455
+264.5,Zebra Crossing between step 264 and 265,Caution: Zebra Crossing Ahead,13.846765000000001,100.564545
+265.0,Navigation,Passing Point,13.84678,100.56454
+266.0,Navigation,Passing Point,13.84683,100.56455
+267.0,Navigation,Passing Point,13.84688,100.56457
+268.0,Navigation,Passing Point,13.84738,100.56487
+269.0,Stop 21,"You have arrived at your destination, on the left",13.84738,100.56487
+270.0,Navigation,Head northeast,13.84738,100.56487
+271.0,Navigation,Passing Point,13.84743,100.5649
+272.0,Navigation,Passing Point,13.84847,100.56548
+272.5,Speed Bump between step 272 and 273,Caution: Speed Bump Ahead,13.848485,100.56548
+273.0,Navigation,Passing Point,13.8485,100.56548
+273.5,Speed Bump between step 273 and 274,Caution: Speed Bump Ahead,13.848555000000001,100.56542999999999
+274.0,Navigation,Passing Point,13.84861,100.56538
+275.0,Navigation,Turn right,13.84861,100.56538
+276.0,Navigation,Passing Point,13.84882,100.5654
+277.0,Stop 22,You have arrived at your destination,13.84882,100.5654
+278.0,Navigation,Head north,13.84882,100.5654
+279.0,Navigation,Passing Point,13.85051,100.56558
+279.5,Speed Bump between step 279 and 280,Caution: Speed Bump Ahead,13.850545,100.56558
+280.0,Navigation,Passing Point,13.85058,100.56558
+281.0,Stop 23,"You have arrived at your destination, on the left",13.85058,100.56558
+282.0,Navigation,Head north,13.85058,100.56558
+282.5,Speed Bump between step 282 and 283,Caution: Speed Bump Ahead,13.851095,100.565595
+283.0,Navigation,Passing Point,13.85161,100.56561
+284.0,Navigation,Turn left,13.85161,100.56561
+284.5,Speed Bump between step 284 and 285,Caution: Speed Bump Ahead,13.85162,100.56547
+285.0,Navigation,Passing Point,13.85163,100.56533
+286.0,Stop 24,You have arrived at your destination,13.85163,100.56533

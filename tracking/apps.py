@@ -1,7 +1,8 @@
 from django.apps import AppConfig
-import threading
-from django.db.models.signals import post_migrate
 import logging
+import os
+import sys
+
 logger = logging.getLogger(__name__)
 
 
@@ -10,7 +11,10 @@ class TrackingConfig(AppConfig):
     name = "tracking"
 
     def ready(self):
-        logger.info(f"threading...")
-        from tracking.bus_simulation import start_simulation
+        if os.environ.get("RUN_MAIN") != "true":
+            return
 
-        start_simulation()
+        if "runserver" in sys.argv:
+            logger.info("Starting bus simulation thread...")
+            from tracking.bus_simulation import start_simulation
+            start_simulation()

@@ -22,7 +22,7 @@ ROUTE_DATA = {
     "1": pd.read_csv(os.path.join(BASE_DIR, "line_1_road_details.csv")),
     "3": pd.read_csv(os.path.join(BASE_DIR, "line_3_road_details.csv")),
     "5": pd.read_csv(os.path.join(BASE_DIR, "line_5_road_details.csv")),
-    "sp": pd.read_csv(os.path.join(BASE_DIR, "line_sp_road_details.csv"))
+    "SP": pd.read_csv(os.path.join(BASE_DIR, "line_SP_road_details.csv"))
 }
 
 # Quick-start development settings - unsuitable for production

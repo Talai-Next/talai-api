@@ -37,9 +37,11 @@ def start_simulation():
 
 class BusSimulator:
     def __init__(self, bus):
-        self.bus = bus
         self.route = ROUTE_DATA.get(bus.line)
-        self.current_index = 0
+        self.current_index = random.randint(0, len(self.route) - 1)
+        bus.latitude = self.route.iloc[self.current_index]["Latitude"]
+        bus.longitude = self.route.iloc[self.current_index]["Longitude"]
+        self.bus = bus
         self.running = True
 
     def adjust_speed(self):
@@ -48,7 +50,7 @@ class BusSimulator:
         instruction = self.route.iloc[self.current_index]["Instruction"].lower()
 
         if "stop" in node_name and random.random() < 0.25:
-            if random.random() < 0.5:
+            if random.random() < 0.9:
                 self.bus.speed = 0
             else:
                 self.bus.speed = base_speed
@@ -67,7 +69,7 @@ class BusSimulator:
             # Loop back to start if at the end of the route
             if self.current_index >= len(self.route) - 1:
                 logger.info(f"Bus {self.bus.bus_id} reached final destination. Looping back to start.")
-                self.current_index = 0
+                self.current_index = 1
 
             next_index = self.current_index + 1
             next_lat = self.route.iloc[next_index]["Latitude"]
@@ -80,7 +82,7 @@ class BusSimulator:
 
             if self.bus.speed == 0:
                 logger.info(f"Bus {self.bus.bus_id} stopping at {self.route.iloc[next_index]['Node_Name']}...")
-                time.sleep(random.randint(2, 5))
+                time.sleep(random.randint(10, 15))
             else:
                 num_steps = max(1, int(distance / self.bus.speed))
                 lat_step = (next_lat - self.bus.latitude) / num_steps

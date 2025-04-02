@@ -5,8 +5,12 @@ import threading
 from django.db import transaction
 from django.conf import settings
 from .models import Bus
+import logging
+
+logger = logging.getLogger(__name__)
 
 ROUTE_DATA = settings.ROUTE_DATA
+
 
 def start_simulation():
     """Start simulations for all active buses across all lines."""
@@ -29,6 +33,7 @@ def start_simulation():
 
     except Exception as e:
         print(f"Error in simulation: {e}")
+
 
 class BusSimulator:
     def __init__(self, bus):
@@ -57,8 +62,13 @@ class BusSimulator:
             self.bus.speed = base_speed
 
     def move_bus(self):
-        """Moves the bus along its designated route."""
-        while self.running and self.current_index < len(self.route) - 1:
+        """Moves the bus along its designated route, looping back to start when done."""
+        while self.running:
+            # Loop back to start if at the end of the route
+            if self.current_index >= len(self.route) - 1:
+                logger.info(f"Bus {self.bus.bus_id} reached final destination. Looping back to start.")
+                self.current_index = 0
+
             next_index = self.current_index + 1
             next_lat = self.route.iloc[next_index]["Latitude"]
             next_lon = self.route.iloc[next_index]["Longitude"]
@@ -69,7 +79,7 @@ class BusSimulator:
             self.adjust_speed()
 
             if self.bus.speed == 0:
-                print(f"Bus {self.bus.bus_id} stopping at {self.route.iloc[next_index]['Node_Name']}...")
+                logger.info(f"Bus {self.bus.bus_id} stopping at {self.route.iloc[next_index]['Node_Name']}...")
                 time.sleep(random.randint(2, 5))
             else:
                 num_steps = max(1, int(distance / self.bus.speed))
@@ -85,10 +95,11 @@ class BusSimulator:
                     with transaction.atomic():
                         self.bus.save()
 
-                    print(f"Bus {self.bus.bus_id} - LAT: {self.bus.latitude:.5f}, LON: {self.bus.longitude:.5f}, SPEED: {self.bus.speed:.2f} m/s")
+                    logger.info(
+                        f"Bus {self.bus.bus_id} - LAT: {self.bus.latitude:.5f}, LON: {self.bus.longitude:.5f}, SPEED: {self.bus.speed:.2f} m/s")
                     time.sleep(1)
 
-                self.current_index = next_index
+            self.current_index = next_index
 
     def stop_bus(self):
         """Stops the bus simulation."""

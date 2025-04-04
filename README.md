@@ -1,6 +1,6 @@
-# Talai mockup RESTful API
+# Talai mockup data RESTful API
 
-This project is a Django-based providing a RESTful API using the Django REST Framework (DRF) for show Talai data.
+This project is a Django-based providing a RESTful API using the Django REST Framework (DRF) for show Talai mockup data.
 
 ---
 
@@ -79,7 +79,7 @@ Your API will be available at: [http://localhost:8080/](http://localhost:8080/)
 │   ├── tests/
 │   ├── views/
 │   └── urls.py
-├── talaiapi/
+├── talai-api/
 │   ├── settings.py
 │   ├── urls.py
 ├── manage.py
